@@ -1,0 +1,199 @@
+@font-face {
+    font-family: kavoon ;
+    src: url('../Fonts/Kavoon-Regular.ttf');
+}
+
+body{
+    background-color: #43403D;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+h1{
+    color:white;
+    font-size: 106px;
+    margin-bottom: 0px;
+    width:727px;
+    font-family: kavoon;
+    text-shadow: 36px 14px 4px rgb(47, 38, 38);
+
+}
+
+h2{
+    position: relative;
+    font-family:kavoon;
+    font-size:20px;
+    font-weight: 20px;
+    position:absolute;
+    margin-top: 10px;
+    color: #bcb6b0;
+}
+
+.ingredient_list{
+    position: relative;
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: repeat(4,144px);
+    grid-template-rows:144px 144px ;
+    gap:7px;
+}
+
+img{
+    border-radius: 20px;
+    
+}
+
+.ingredient:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-color:rgb(113, 213, 246);
+    box-shadow: 0px 0px 50px rgb(28, 24, 24) ;
+}
+
+.classifier{
+    display: grid;
+    align-items: space-between;
+    grid-template-columns: 1fr 1fr;
+    margin-left:100px
+
+}
+
+.burger-dish{
+    position:relative;
+    left:120px;
+    align-self: center;
+    margin-top: 90px;
+    background-color:#8C5624;
+    height:550px;
+    width:300px;
+    transform: skewY(5deg);
+    z-index: 0px;
+}
+
+.burger-constructor{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:-480px;
+
+}
+
+.onion,.khoss,.tomato,.meat,.upbread,.downbread,.cheese,.cheese-blue{
+    filter:drop-shadow(36px 18px 4px rgba(0, 0, 0, 0.299));
+    margin:-10px;
+}
+
+.upbread{
+    z-index: 13;
+}
+
+.downbread{
+    z-index: 0;
+}
+
+.cheese{
+    margin-top:-3px !important;
+    z-index: 14;
+    display: none;
+}
+
+.meat{
+    margin-top: -15px;
+    margin-bottom: -29px;
+    z-index: 8;
+    display: none;
+}
+
+.cheese-blue{
+    z-index:7;
+    margin-top: -25px;
+}
+.khoss{
+    z-index: 11;
+    margin-top: -15px;
+    display: none;
+}
+
+.tomato{
+    z-index: 13;
+    display: none;
+}
+.onion{
+    z-index:12;
+    display: none;
+}
+
+.btn{
+    display:flex;
+    font-family: kavoon;
+    font-size: 30px;
+    background-color:#FF5D5D;
+    color:white;
+    position:absolute;
+    width:fit-content;
+    top:680px;
+    left:680px;
+    justify-content: center;
+    border-radius: 30px;
+    user-select: none;
+}
+
+.btn:hover{
+    cursor:pointer;
+    transform: scale(1.25);
+    background-color: black;
+    transition-duration: 200ms;
+}
+
+.arrow{
+    padding-top: 10px;
+    padding-left:20px;
+    padding-bottom: 10px;
+}
+
+span{
+    margin-left:10px;
+    padding-top: 10px;
+    padding-right:20px;
+    padding-bottom: 10px;
+}
+footer{
+    display:flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    margin-top:40px;
+    background-color: #E7FFBF;
+    height:600px;
+    width:100%;
+    flex-direction: column;
+}
+
+.bigLogo{
+    margin-top: 20px;
+}
+
+.gratitude{
+    color:black !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    width:600px;
+}
+
+.SM{
+    cursor: pointer;
+    margin:20px;
+}
+
+.property{
+    position:absolute;
+    right:30px;
+    bottom:10px;
+    font-size: 10px;
+}

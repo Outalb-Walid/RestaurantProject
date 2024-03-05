@@ -1,0 +1,126 @@
+@font-face {
+    font-family: kavoon ;
+    src: url('../../Fonts/Kavoon-Regular.ttf');
+}
+
+ul{
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: black;
+    width:100%;
+    height:50px;
+    margin:0px;
+    z-index: 100;
+}
+li{
+    position:relative;
+    float:left;
+    list-style-type: none;
+    margin-right: 110px;
+    font-family: kavoon;
+    color:white;
+    height:fit-content;
+    margin-top: 15px;
+}
+.reserve{
+    float:right;
+    color:black;
+    font-weight: bold;
+    margin-top:10px;
+    margin-right: 100px;
+    padding : 5px 5px 5px 5px;
+    border-radius:5px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(45deg, #7AFF4B, #E6FF4B);
+}
+
+.reserve:hover{
+    transform: scale(1.25);
+}
+
+.logo{
+    background-color: transparent !important;
+    padding:0 0 0 0 !important;
+    margin-top: 10px;
+    margin-right:30px !important;
+}
+
+li:hover{
+    cursor: pointer;
+    margin-top:10px;
+    margin-right: 100px;
+    padding : 5px 5px 5px 5px;
+    border-radius:5px;
+    color:black;
+    background-color: white;
+    transition-duration: 200ms;
+}
+
+.logo{
+    background-color: transparent !important;
+    padding:0 0 0 0 !important;
+    margin-top: 10px;
+    margin-right:30px !important;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#email{
+    font-size:20px;
+    margin-top : 10px;
+    padding-left: 20px !important;
+    padding:5px;
+    border-radius: 10px;
+    height:30px;
+    width:600px;
+}
+
+.message{
+    margin-top: 10px;
+    width:600px;
+    height:600px;
+    padding : 20px;
+    resize:none;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    margin-top:40px;
+    background-color: #E7FFBF;
+    height:600px;
+    width:100%;
+    flex-direction: column;
+}
+
+.bigLogo{
+    margin-top: 20px;
+}
+
+.gratitude{
+    color:black !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    width:600px;
+}
+
+.SM{
+    cursor: pointer;
+    margin:20px;
+}
+
+.property{
+    position:absolute;
+    right:30px;
+    bottom:10px;
+    font-size: 10px;
+}

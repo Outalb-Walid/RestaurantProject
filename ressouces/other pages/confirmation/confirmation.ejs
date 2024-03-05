@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <style>
+        html{
+            height:100%;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:inherit;
+        }
+        .p{
+            width : 300px;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+        .div{
+            padding:20px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            height:fit-content;
+            background-color: rgb(142, 193, 193);
+            border-radius: 10px;
+        }
+        .b{
+            font-size:15px;
+            padding:20px;
+            width: 300px;
+            background-color: aquamarine;
+        }
+        .contain{
+            width:fit-content;
+            background-color: aquamarine;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgb(146, 145, 145);
+        }
+    </style>
+    <div class="contain">
+        <div class="div"><p class="p"> Thank you  <%=fullName %> for choosing our restaurant </p></div>
+        
+        <p class="b">Verify that you have received an email that confime your reservation </p>
+    </div>
+</body>
+</html>

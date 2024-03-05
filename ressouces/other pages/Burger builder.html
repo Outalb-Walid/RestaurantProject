@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Builder</title>
+    <link rel="stylesheet" href="burger builder.css">
+    <link rel="icon" href="../images/Logo.png">
+</head>
+<body>
+    <ul>
+        <li class="logo"><img src="../images/Logo.png" ></li>
+        <li><a href="../../index.html">Home</a></li>
+        <li>Menu</li>
+        <li id="burger">Burger</li>
+        <li>Contact us</li>
+        <li  class="reserve">reserve</li>
+        
+    </ul>
+    <div class="classifier">
+        <div class="container">
+            <h1>Build Up Your <b>BURGER 🍔</b></h1>
+            <h2>Choose your ingredients :</h2>
+            <audio src="../audio/hovering.mp3"></audio>
+            <div class="ingredient_list">
+                <div><img onmouseenter="hovering()" src="../images/ingredients/cheese.png" class="ingredient" id="cheese ing" title="cheese"></div>
+                <div><img onmouseenter="hovering()" src="../images/ingredients/cheese blue.png"class="ingredient" id="cheese blue ing" title="blue cheese"></div>
+                <div><img onmouseenter="hovering()" src="../images/ingredients/meat.jpg"class="ingredient" id="meat ing" title="meat"></div>
+                <div><img onmouseenter="hovering()" src="../images/ingredients/green.jpg"class="ingredient" id="green ing" title="khoss"></div>
+                <div><img onmouseenter="hovering()" src="../images/ingredients/onion.jpg"class="ingredient" id="onion ing" title="onion"></div>
+                <div><img onmouseenter="hovering()" src="../images/ingredients/tomato.jpg"class="ingredient" id="tomato ing" title="tomato"></div>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="burger-dish"></div>
+            <div class="burger-constructor">
+                <img class="upbread" src="../images/up-bread.png" width="300px">
+                <img class="cheese" src="../images/cheese ing.png"width="300px">
+                <img class="meat" src="../images/meat ing.png"width="300px">
+                <img class="cheese blue" src="../images/cheese blue.png">
+                <img src="../images/tomato ing.png" class="tomato"width="300px">
+                <img src="../images/onion ing.png" class="onion"width="300px">
+                <img src="../images/khoss ing.png" class="khoss"width="300px">
+                <img class="downbread" src="../images/down-bread.png"width="300px">
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+        <img src="../images/fast-forward.png" class="arrow">
+        <span>Order Now</span>
+    </div>
+    <footer>
+        <img class="bigLogo" src="/ressouces/images/Logo 256x256.png">
+        <p class="gratitude">Thank You For Visiting Our Restaurant.
+            Keep Us in Contact :
+            </p>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/"><img class="SM" src="/ressouces/images/facebook-circular-logo 64x64.png"></a>
+            <a href="https://www.pinterest.fr/"><img class="SM" src="/ressouces/images/pinterest-circular-logo-symbol 64x64.png"></a>
+            <a href="https://www.instagram.com/"><img class="SM" src="/ressouces/images/instagram 64x64.png"></a>
+        </div>
+        <p class="property"> ® All rights are reserved</p>
+    </footer>
+    <script src="burger builder.js"></script>
+</body>
+</html>

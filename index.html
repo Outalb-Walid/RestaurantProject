@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="ressouces/images/Logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navigation bar.css">
+    <link rel="icon" href="../../images/Logo.png">
+    <title>INPT restaurant</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="ressouces/images/Logo.png"></li>
+            <li class="target">Home</li>
+            <li>Menu</li>
+            <li><a href="ressouces/other pages/burger builder/Burger builder.html" id="tester">Burger</a></li>
+            <li><a href='ressouces/other pages/contact us/contact us.html' >Contact Us</a></li>
+            <li class="reserve" >reserve</li>
+        </ul>
+    </nav>  
+    <div class = "signIn" style="display: none;">
+        <div class = "Info">
+            
+            <div class="panel">Reservation</div>
+            <form method="post">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type ="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type ="text" name="lastName" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type ="text" name="phoneNumber" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email </td>
+                        <td><input type ="email" name="email" required></td>
+                    </tr>
+                </table>
+                <button name = "confirmation">Confirm</button>
+            </form>
+            <img src="/ressouces/images/delete.png" class = "close" onclick = "closeRes()">
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="contentHolder">
+            <h1>WELCOME TO OUR RESTAURANT :</h1>
+            <p>Our restaurant is among  the best restaurant out there. Our restaurant has many skilled chef .
+                You just need to taste our food to feel that you are out of this world.
+                Our restaurant is very known worldwide .Even Jorge Buch when he came here to Morocco,
+                he manage to reserve a table in Our restaurant .So what are you waiting for !! 
+            </p>
+            <div class="btn" onclick="reserve()">RESERVE</div>
+        </div>
+        <img class="restaurant" src="ressouces/images/restaurant1.png">
+    </div>
+    <footer>
+        <img class="bigLogo" src="ressouces/images/Logo 256x256.png">
+        <p class="gratitude">Thank You For Visiting Our Restaurant.
+            Keep Us in Contact :
+            </p>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/"><img class="SM" src="ressouces/images/facebook-circular-logo 64x64.png"></a>
+            <a href="https://www.pinterest.fr/"><img class="SM" src="ressouces/images/pinterest-circular-logo-symbol 64x64.png"></a>
+            <a href="https://www.instagram.com/"><img class="SM" src="ressouces/images/instagram 64x64.png"></a>
+        </div>
+        <p class="property"> ® All rights are reserved</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
